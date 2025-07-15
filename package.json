@@ -1,0 +1,20 @@
+{
+  "name": "ns-gps",
+  "main": "app/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript/core": "~8.9.0",
+    "@nativescript/theme": "^3.1.0",
+    "@nativescript-community/svelte-native": "~1.0.29"
+  },
+  "devDependencies": {
+    "@nativescript/types": "~8.9.0",
+    "@nativescript/webpack": "~5.0.0",
+    "svelte": "~4.2.2",
+    "svelte-loader": "^3.1.9",
+    "svelte-native-preprocessor": "^1.0.0",
+    "svelte-preprocess": "^5.0.4",
+    "typescript": "~5.7.0"
+  }
+}
