@@ -64,8 +64,8 @@
       },
       {
         desiredAccuracy: CoreTypes.Accuracy.high,
-        maximumAge: 5000,
-        timeout: 20000,
+        updateDistance: 1,
+        updateTime: 1000,
       },
     );
     // geolocation
