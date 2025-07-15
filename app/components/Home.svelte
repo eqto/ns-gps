@@ -29,7 +29,11 @@
     speed = Math.round(speed);
     direction = Math.round(direction);
 
-    if (lastPoint.lat === lat && lastPoint.lon === lon) {
+    if (
+      lastPoint.lat === lat &&
+      lastPoint.lon === lon &&
+      lastPoint.direction == direction
+    ) {
       return;
     }
     lastPoint = { lat, lon, speed, direction };
