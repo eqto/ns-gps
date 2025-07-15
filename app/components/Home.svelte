@@ -26,7 +26,7 @@
     speed: number,
     direction: number,
   ) {
-    speed = Math.round(speed);
+    speed = Math.round(speed * 3.6);
     direction = Math.round(direction);
 
     if (
